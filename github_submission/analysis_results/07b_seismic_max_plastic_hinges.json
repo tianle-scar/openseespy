@@ -1,0 +1,23 @@
+{
+  "definition": {
+    "method": "member-end moment demand-to-yield ratio",
+    "beam_yield_moment_kN_m": 327.4008023019525,
+    "column_yield_moment_kN_m": 409.93800406576383,
+    "thresholds": {
+      "elastic": "DCR < 0.80",
+      "near_yield": "0.80 <= DCR < 1.00",
+      "plastic_hinge": "1.00 <= DCR < 1.30",
+      "severe_plastic": "DCR >= 1.30"
+    },
+    "note": "DCR = |member end moment| / My. My is estimated by rectangular RC section force equilibrium. This is a visualization-oriented hinge indicator; detailed hinge rotation capacity should be calibrated with section analysis or code acceptance criteria."
+  },
+  "counts": {
+    "elastic": 70,
+    "near_yield": 0,
+    "plastic_hinge": 0,
+    "severe_plastic": 0
+  },
+  "active_hinge_count": 0,
+  "max_dcr": 0.505935037273459,
+  "active_hinges": []
+}

@@ -1,0 +1,18 @@
+{
+  "cover_unconfined_concrete": {
+    "material": "OpenSees Concrete01",
+    "description": "非约束保护层混凝土",
+    "fpc_MPa": -28.0,
+    "epsc0": -0.002,
+    "fpcu_MPa": -7.0,
+    "epsU": -0.004
+  },
+  "core_confined_concrete": {
+    "material": "OpenSees Concrete01",
+    "description": "箍筋约束核心混凝土",
+    "fpc_MPa": -40.25,
+    "epsc0": -0.0025,
+    "fpcu_MPa": -10.5,
+    "epsU": -0.02
+  }
+}

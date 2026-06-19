@@ -1,0 +1,10 @@
+{
+  "material": "OpenSees Steel02",
+  "description": "钢筋 (Giuffre-Menegotto-Pinto模型)",
+  "fy_MPa": 400.0,
+  "E0_MPa": 200000.0,
+  "b": 0.01,
+  "R0": 15.0,
+  "cR1": 0.925,
+  "cR2": 0.15
+}
